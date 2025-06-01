@@ -1,0 +1,118 @@
+.anim-div{
+    background-color: burlywood;
+    color: white;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 10px;
+    padding: 22px;
+}
+
+.p1{
+    background-color: aquamarine;
+    color: red;
+    animation: anim1 5s infinite ease alternate-reverse;
+}
+.p2{
+    background-color: green;
+    color: yellow;
+    animation: anim2 5s infinite ease alternate-reverse;
+}
+.p3{
+    background-color: brown;
+    color: rgb(94, 88, 88);
+    animation: anim3 5s infinite ease alternate-reverse;
+}
+.p4{
+    background-color: peru;
+    color: pink;
+    animation: anim4 5s infinite ease alternate-reverse;
+}
+.p5{
+    background-color: purple;
+    color: orange;
+    animation: anim5 5s infinite ease alternate-reverse;
+}
+.p6{
+    background-color: chartreuse;
+    color: grey;
+    animation: anim6 5s infinite ease alternate-reverse;
+}
+
+.div1{
+    background-color: rgba(167, 173, 173, 0.507);
+    height: 80px;
+    width: 180px;
+    margin-left: 40%;
+    transition: 2s ease;
+    font-weight: bolder;
+    color: rgb(83, 71, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1:active{
+    background-color: rgba(233, 145, 86, 0.507);
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+@keyframes anim1{
+    100%{
+        color: white;
+        rotate: 360deg;
+        
+        margin-top: 100px;
+    }
+}
+
+@keyframes anim2{
+    100%{
+        color: white;
+        rotate: 360deg;
+        
+        margin-top: 100px;
+    }
+}
+
+@keyframes anim3{
+    100%{
+        color: white;
+        rotate: 360deg;
+        
+        margin-top: 100px;
+    }
+}
+
+@keyframes anim4{
+    100%{
+        color: white;
+        rotate: 360deg;
+       
+        margin-top: 100px;
+    }
+}
+
+@keyframes anim5{
+    100%{
+        color: white;
+        rotate: 360deg;
+       
+        margin-top: 100px;
+    }
+}
+
+@keyframes anim6{
+    100%{
+        color: white;
+        rotate: 360deg;
+        
+        margin-top: 100px;
+    }
+}
+body{
+    padding: 15px;
+}
